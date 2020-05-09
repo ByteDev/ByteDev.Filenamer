@@ -1,0 +1,21 @@
+﻿ByteDev.FileNamer.Ui
+
+==========================================================================
+3.3.0.0
+Improvements:
+- Now using ByteDev.Common 3.2
+
+==========================================================================
+3.2.0.0
+Fixes: 
+- now saves settings without crashing everytime
+
+Improvements: 
+- now using Serializer to create persistable representation of ProgramSettings (rather than SettingsDocumentFactory)
+- StatusLabelHelper is now StatusLabel control
+
+==========================================================================
+3.1.0.0
+Improvements:
+- added new command ExtensionCaseToLowerCommand
+- selecting commands now based on type (not index position)

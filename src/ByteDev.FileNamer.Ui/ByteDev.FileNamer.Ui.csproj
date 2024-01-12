@@ -43,10 +43,13 @@
       <HintPath>..\..\packages\ByteDev.Common.7.0.0\lib\netstandard2.0\ByteDev.Common.dll</HintPath>
     </Reference>
     <Reference Include="ByteDev.Configuration, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\ByteDev.Configuration.2.0.1\lib\netstandard2.0\ByteDev.Configuration.dll</HintPath>
+      <HintPath>..\..\packages\ByteDev.Configuration.2.0.2\lib\netstandard2.0\ByteDev.Configuration.dll</HintPath>
     </Reference>
     <Reference Include="ByteDev.Io, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\ByteDev.Io.4.0.0\lib\netstandard2.0\ByteDev.Io.dll</HintPath>
+      <HintPath>..\..\packages\ByteDev.Io.7.4.1\lib\netstandard2.0\ByteDev.Io.dll</HintPath>
+    </Reference>
+    <Reference Include="ByteDev.Strings, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\ByteDev.Strings.11.1.0\lib\netstandard2.0\ByteDev.Strings.dll</HintPath>
     </Reference>
     <Reference Include="ByteDev.WinForms">
       <HintPath>..\..\lib\ByteDev.WinForms-1.0.2\ByteDev.WinForms.dll</HintPath>

@@ -39,9 +39,6 @@
     <ApplicationIcon>App.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ByteDev.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\ByteDev.Common.7.0.0\lib\netstandard2.0\ByteDev.Common.dll</HintPath>
-    </Reference>
     <Reference Include="ByteDev.Configuration, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\ByteDev.Configuration.2.0.2\lib\netstandard2.0\ByteDev.Configuration.dll</HintPath>
     </Reference>
@@ -53,6 +50,9 @@
     </Reference>
     <Reference Include="ByteDev.WinForms">
       <HintPath>..\..\lib\ByteDev.WinForms-1.0.2\ByteDev.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="ByteDev.Xml, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\ByteDev.Xml.2.0.0\lib\netstandard2.0\ByteDev.Xml.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
@@ -94,6 +94,7 @@
     <Compile Include="Controls\AvailableOperationsListBox.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Controls\GenericExtensions.cs" />
     <Compile Include="Controls\OperationsToDoListBox.cs">
       <SubType>Component</SubType>
     </Compile>

@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Windows.Forms;
-using ByteDev.Common.Serialization.Xml;
 using ByteDev.FileNamer.Ui.Config;
 using ByteDev.FileNamer.Ui.Factories;
+using ByteDev.Xml.Serialization;
 
 namespace ByteDev.FileNamer.Ui
 {

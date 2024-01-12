@@ -1,5 +1,5 @@
 using System;
-using ByteDev.Common.Serialization;
+using ByteDev.Xml.Serialization;
 using IsolatedStorageIo = ByteDev.FileNamer.Ui.IsolatedStorage.IsolatedStorageIo;
 
 namespace ByteDev.FileNamer.Ui.Config
@@ -8,12 +8,12 @@ namespace ByteDev.FileNamer.Ui.Config
     {
         private readonly IsolatedStorageIo _isolatedStorageIo;
         private readonly IProgramSettingsFactory _programSettingsFactory;
-        private readonly ISerializer _serializer;
+        private readonly IXmlDataSerializer _serializer;
 
         public ProgramSettings ProgramSettings { get; private set; }
         
 		public ProgramSettingsService(IProgramSettingsFactory programSettingsFactory,
-            ISerializer serializer)
+            IXmlDataSerializer serializer)
 		{
 		    _isolatedStorageIo = new IsolatedStorageIo();
 

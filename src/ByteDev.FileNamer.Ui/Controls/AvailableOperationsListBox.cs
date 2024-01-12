@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
-using ByteDev.Common;
 using ByteDev.FileNamer.Core.FileRenameCommands;
 
 namespace ByteDev.FileNamer.Ui.Controls
@@ -19,11 +18,11 @@ namespace ByteDev.FileNamer.Ui.Controls
         public FileRenameCommand GetCloneFromSelected()
         {
             var command = SelectedItem as FileRenameCommand;
+
             if(command == null)
-            {
                 throw new NullReferenceException("No operation is selected");
-            }
+
             return command.CloneSerializable();
         }
-	}
+    }
 }

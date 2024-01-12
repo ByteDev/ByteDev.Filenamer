@@ -58,7 +58,6 @@
     <Compile Include="FileRenameCommands\ReplaceCharSpaceCommandTest.cs" />
     <Compile Include="FileRenameCommands\ReplaceStringCommandTest.cs" />
     <Compile Include="FileRenameCommandListTest.cs" />
-    <Compile Include="StringExtensionsTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

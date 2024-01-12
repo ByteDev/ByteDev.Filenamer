@@ -1,4 +1,5 @@
 ﻿using System;
+using ByteDev.Strings;
 
 namespace ByteDev.FileNamer.Core.FileRenameCommands
 {
@@ -14,7 +15,7 @@ namespace ByteDev.FileNamer.Core.FileRenameCommands
             {
                 var fileNameWithoutExtension = GetFileNameWithoutExtension(fileName);
 
-                fileNameWithoutExtension = fileNameWithoutExtension.ToCapitalCase();
+                fileNameWithoutExtension = fileNameWithoutExtension.ToTitleCase();
 
                 SetResult(fileNameWithoutExtension + GetFileNameExtension(fileName));
             }
